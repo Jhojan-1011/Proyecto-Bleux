@@ -1,4 +1,52 @@
-header{
-    background-color: #1e172f;
-    
+.seccion{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3px ;
+  background-color: #1e1630;
+  color: aliceblue;
+  }
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.seccion a{
+  color: aliceblue;
+  text-align:left;
+  margin-right: -290px;
+  text-decoration: none;
+}
+.btnOne{
+  background: linear-gradient(to right,#8441d5,#3498db);
+  color: aliceblue;
+  padding: 10px;
+  width: 115px;
+  border-radius: 4.5px;
+  cursor: pointer;
+}
+
+.seccion1{
+  background-image: url(../assets/hojasFondo.jpg);
+  display: flex;
+ justify-content: space-around;
+}
+
+.izquierda{
+  background-color: #2e244f;
+  color: aliceblue;
+  width: 50%;
+
+}
+.izquierda h1{
+  margin-top: 200px;
+  font-size: 67px;
+}
+
+ 
+
+.derecha{
+  width: 50%;
 }
